@@ -52,6 +52,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -116,7 +119,7 @@
       <workItem from="1708296278481" duration="785000" />
       <workItem from="1708417279887" duration="4000" />
       <workItem from="1708418462295" duration="161000" />
-      <workItem from="1709191436693" duration="11403000" />
+      <workItem from="1709191436693" duration="15331000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
@@ -145,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added svg-sprites" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added svg-sprites" />
+    <MESSAGE value="Created header and main section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created header and main section" />
   </component>
 </project>
