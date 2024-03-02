@@ -10,7 +10,7 @@ type FlexWrapperPropsType = {
 export const FlexWrapper = styled.div<FlexWrapperPropsType>`
     display: flex;
     flex-direction: ${props => props.direction || "row"};
-    justify-items: ${props => props.justify || "stretch"};
-    align-items: ${props => props.align || "flex-start"};    
+    justify-content: ${props => props.justify || "flex-start"};
+    align-items: ${props => props.align || "stretch"};    
     flex-wrap: ${props => props.wrap || "nowrap"};
 `
