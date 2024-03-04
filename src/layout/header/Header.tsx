@@ -1,13 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import {Navigation} from "../../components/navigation/Navigation";
+import {Menu} from "../../components/menu/Menu";
 import {Logo} from "../../components/logo/Logo";
+
+const items = ["Home", "Skills", "Works", "Testimony", "Contact"]
 
 export const Header = () => {
     return (
         <StyledHeader>
             <Logo/>
-            <Navigation/>
+            <Menu menuItems={items}/>
         </StyledHeader>
     );
 };
