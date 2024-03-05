@@ -14,7 +14,6 @@ export const Contacts = () => {
                 <Field placeholder="Enter your message" as={"textarea"} />
                 <Button type={"submit"}>Send your message</Button>
             </StyledForm>
-
         </StyledContacts>
     );
 };
