@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Created testimony section">
-      <change afterPath="$PROJECT_DIR$/src/components/Container.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/headermenu/HeaderMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,7 @@
       <workItem from="1708418462295" duration="161000" />
       <workItem from="1709191436693" duration="23574000" />
       <workItem from="1709559530921" duration="18818000" />
-      <workItem from="1709807610737" duration="4451000" />
+      <workItem from="1709807610737" duration="9004000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
