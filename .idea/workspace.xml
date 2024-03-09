@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Created testimony section">
+    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Styles to main section and photo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlexWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlexWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SectionTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionTitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +134,7 @@
       <workItem from="1708418462295" duration="161000" />
       <workItem from="1709191436693" duration="23574000" />
       <workItem from="1709559530921" duration="18818000" />
-      <workItem from="1709807610737" duration="14207000" />
+      <workItem from="1709807610737" duration="15224000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
@@ -173,6 +173,7 @@
     <MESSAGE value="Added svg-sprites" />
     <MESSAGE value="Created header and main section" />
     <MESSAGE value="Created testimony section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created testimony section" />
+    <MESSAGE value="Styles to main section and photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styles to main section and photo" />
   </component>
 </project>
