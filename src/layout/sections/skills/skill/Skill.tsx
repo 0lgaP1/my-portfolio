@@ -33,7 +33,7 @@ const SkillTitle = styled.h3`
     margin-top: 70px;
     margin-bottom: 15px;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 21px;
     line-height: 16px;
     font-weight: 700;
     font-family: 'Josefin Sans', sans-serif;
@@ -58,6 +58,7 @@ const IconWrapper = styled.div`
         width: 80px;
         height: 80px;
         transform: rotate(45deg) translate(-50%, -50%);
+        transform-origin: top left;
                 
         position: absolute;
         z-index: -1;
