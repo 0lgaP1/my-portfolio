@@ -46,4 +46,16 @@ export const GlobalStyles = createGlobalStyle`
     section:nth-of-type(even) {
         background-color: ${theme.colors.secondaryBg};
     }
+    
+    h3 {
+        font-weight: 700;
+        font-size: 21px;
+        letter-spacing: 1px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    p {
+        font-size: 14px;
+        font-weight: 400;
+    }
 `

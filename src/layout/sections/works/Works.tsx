@@ -16,7 +16,7 @@ export const Works = () => {
             <Container>
                 <SectionTitle>My works</SectionTitle>
                 <Menu menuItems={workItems}/>
-                <FlexWrapper wrap={"wrap"} justify={"space-around"}>
+                <FlexWrapper wrap={"wrap"} justify={"space-between"}>
                     <WorkCard src={socialImg} title={"Social network"} description={"Lorem ipsum dolor"}/>
                     <WorkCard src={timerImg} title={"Timer"} description={"Lorem ipsum dolor, Lorem ipsum dolor"}/>
                 </FlexWrapper>
@@ -27,5 +27,4 @@ export const Works = () => {
 
 const StyledWorks = styled.section`
     background-color: #ec9359;
-    min-height: 100vh;
 `
