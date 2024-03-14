@@ -1,4 +1,3 @@
-import React from 'react';
 import {createGlobalStyle} from "styled-components";
 import {theme} from "./Theme";
 
@@ -24,6 +23,7 @@ export const GlobalStyles = createGlobalStyle`
     
     a {
         text-decoration: none;
+        color: ${theme.colors.font};
     }
     
     ul {
@@ -46,4 +46,18 @@ export const GlobalStyles = createGlobalStyle`
     section:nth-of-type(even) {
         background-color: ${theme.colors.secondaryBg};
     }
+    
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+        font-weight: 400;
+    }
+    
+    h3 {
+        letter-spacing: 1px;
+        font-size: 21px;
+        font-weight: 700;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
 `

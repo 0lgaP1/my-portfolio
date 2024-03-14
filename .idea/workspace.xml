@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="">
+    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Refactored tab menu">
+      <change afterPath="$PROJECT_DIR$/src/components/Link.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/WorkCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/WorkCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/tabMenu/TabMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/tabMenu/TabMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +22,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -150,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709652477746</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Revert &quot;Refactored Global styles&quot;&#10;&#10;This reverts commit fafb8f60">
+      <option name="closed" value="true" />
+      <created>1710368690471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710368690471</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +188,8 @@
     <MESSAGE value="Created header and main section" />
     <MESSAGE value="Created testimony section" />
     <MESSAGE value="Styles to main section and photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styles to main section and photo" />
+    <MESSAGE value="Revert &quot;Refactored Global styles&quot;&#10;&#10;This reverts commit fafb8f60" />
+    <MESSAGE value="Refactored tab menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored tab menu" />
   </component>
 </project>
