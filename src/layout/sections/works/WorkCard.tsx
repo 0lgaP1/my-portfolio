@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {Link} from "../../../components/Link";
 import {theme} from "../../../styles/Theme";
+import {Button} from "../../../components/Button";
 
 type WorkCardPropsType = {
     src: string;
@@ -13,13 +14,14 @@ export const WorkCard = (props: WorkCardPropsType) => {
         <StyledWorkCard>
             <ImageWrapper>
                 <StyledImage src={props.src} alt=""/>
+                <Button>View Project</Button>
             </ImageWrapper>
 
             <Description>
-            <WorkCardTitle>{props.title}</WorkCardTitle>
-            <WorkCardText>{props.description}</WorkCardText>
-            <Link href={"#"}>Demo</Link>
-            <Link href={"#"}>Code</Link>
+                <WorkCardTitle>{props.title}</WorkCardTitle>
+                <WorkCardText>{props.description}</WorkCardText>
+                <Link href={"#"}>Demo</Link>
+                <Link href={"#"}>Code</Link>
             </Description>
         </StyledWorkCard>
     );
@@ -29,19 +31,20 @@ const StyledWorkCard = styled.div`
     background-color: ${theme.colors.secondaryBg};
     max-width: 540px;
     width: 100%;
-           
+
     ${Link} {
         padding: 10px 0;
 
-    & + ${Link} {
-        margin-left: 20px;
-    }
+        & + ${Link} {
+            margin-left: 20px;
         }
     }
+}
 `
 
 const ImageWrapper = styled.div`
     position: relative;
+
     &:hover {
         &::before {
             content: "";
@@ -52,8 +55,27 @@ const ImageWrapper = styled.div`
             bottom: 0;
             background-color: rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(4px);
+        }
+
+        ${Button} {
+            opacity: 1;
+        }
+
     }
+}
+
+${Button} {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+
+    &::before {
+        width: 100%;
+        height: 100%;
     }
+}
 `
 
 const StyledImage = styled.img`
