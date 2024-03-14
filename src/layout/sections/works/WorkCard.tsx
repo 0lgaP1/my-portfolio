@@ -11,7 +11,10 @@ type WorkCardPropsType = {
 export const WorkCard = (props: WorkCardPropsType) => {
     return (
         <StyledWorkCard>
-            <StyledImage src={props.src} alt=""/>
+            <ImageWrapper>
+                <StyledImage src={props.src} alt=""/>
+            </ImageWrapper>
+
             <Description>
             <WorkCardTitle>{props.title}</WorkCardTitle>
             <WorkCardText>{props.description}</WorkCardText>
@@ -34,6 +37,22 @@ const StyledWorkCard = styled.div`
         margin-left: 20px;
     }
         }
+    }
+`
+
+const ImageWrapper = styled.div`
+    position: relative;
+    &:hover {
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(4px);
+    }
     }
 `
 
