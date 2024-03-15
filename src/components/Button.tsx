@@ -30,7 +30,7 @@ export const Button = styled.button`
         bottom: 0;
         left: 50%;
         z-index: -1;
-        border-radius: 3px;
+
         transform: translateX(-50%);
     }
 `

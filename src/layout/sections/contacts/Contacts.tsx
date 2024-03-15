@@ -19,8 +19,7 @@ export const Contacts = () => {
 };
 
 const StyledContacts = styled.section`
-    background-color: rgba(32, 56, 238, 0.55);
-    min-height: 50vh;
+    
 `
 
 const StyledForm = styled.form`
