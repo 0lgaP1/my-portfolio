@@ -15,7 +15,7 @@ export const Contacts = () => {
                     <Field placeholder={"Your name"}/>
                     <Field placeholder={"Enter a subject"}/>
                     <Field placeholder="Enter your message" as={"textarea"} />
-                    <Button type={"submit"}>Send your message</Button>
+                    <Button type={"submit"}>Send message</Button>
                 </StyledForm>
             </Container>
         </StyledContacts>
