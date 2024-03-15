@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Refactored tab menu">
+    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Styled testimony block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/WorkCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/WorkCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +102,9 @@
       <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\components" />
       <recent name="C:\Users\Dell\WebstormProjects\portfolio-start-project\public" />
     </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\IconWrapper.tsx" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -160,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710368690471</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a preview button for projects">
+      <option name="closed" value="true" />
+      <created>1710420558351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710420558351</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Styled testimony block">
+      <option name="closed" value="true" />
+      <created>1710496595850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710496595850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +205,8 @@
     <MESSAGE value="Styles to main section and photo" />
     <MESSAGE value="Revert &quot;Refactored Global styles&quot;&#10;&#10;This reverts commit fafb8f60" />
     <MESSAGE value="Refactored tab menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored tab menu" />
+    <MESSAGE value="Added a preview button for projects" />
+    <MESSAGE value="Styled testimony block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styled testimony block" />
   </component>
 </project>
