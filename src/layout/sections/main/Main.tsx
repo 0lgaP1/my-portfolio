@@ -26,8 +26,6 @@ export const Main = () => {
 };
 
 const StyledMain = styled.section`
-    min-height: 100vh;
-    background-color: rgba(129, 110, 162, 0.95);
     display: flex;
 `
 

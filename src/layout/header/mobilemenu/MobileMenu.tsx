@@ -2,9 +2,9 @@ import React from 'react';
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme";
 
-export const HeaderMenu = (props: {menuItems: Array<string>}) => {
+export const MobileMenu = (props: {menuItems: Array<string>}) => {
     return (
-        <StyledHeaderMenu>
+        <StyledMobileMenu>
             <ul>
                 {props.menuItems.map((item:string, index:number)=>{
                     return <ListItem key={index}>
@@ -20,11 +20,11 @@ export const HeaderMenu = (props: {menuItems: Array<string>}) => {
                     </ListItem>
                 })}
             </ul>
-        </StyledHeaderMenu>
+        </StyledMobileMenu>
     );
 };
 
-const StyledHeaderMenu = styled.nav`
+const StyledMobileMenu = styled.nav`
     ul {
         display: flex;
         gap: 30px;
@@ -34,6 +34,18 @@ const StyledHeaderMenu = styled.nav`
         display: none;
     }
 `
+
+
+const StyledMenuPopup = styled.div<{isOpen: boolean}>`
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: rgba(31, 31, 32, 0.9);
+`
+
 
 const Link = styled.a`
     font-family: 'Josefin Sans', sans-serif;
