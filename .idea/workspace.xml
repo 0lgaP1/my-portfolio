@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Styled testimony block">
+    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Adaptive for main photo">
+      <change afterPath="$PROJECT_DIR$/src/styles/Common.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -86,7 +86,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/WebstormProjects/portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/WebstormProjects/portfolio/src/layout/header&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -98,6 +98,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\layout\header" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\components" />
       <recent name="C:\Users\Dell\WebstormProjects\portfolio-start-project\public" />
@@ -140,6 +143,7 @@
       <workItem from="1709559530921" duration="18818000" />
       <workItem from="1709807610737" duration="18704000" />
       <workItem from="1710283194020" duration="523000" />
+      <workItem from="1710797396485" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
@@ -181,7 +185,55 @@
       <option name="project" value="LOCAL" />
       <updated>1710496595850</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Centered slogan section">
+      <option name="closed" value="true" />
+      <created>1710502933757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710502933757</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Edited footer section">
+      <option name="closed" value="true" />
+      <created>1710506467219</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710506467219</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Edited svg sprite">
+      <option name="closed" value="true" />
+      <created>1710629724607</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710629724607</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created pop up for mobile adaptive">
+      <option name="closed" value="true" />
+      <created>1710686326682</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710686326682</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created a burger button styles">
+      <option name="closed" value="true" />
+      <created>1710772078073</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710772078073</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adaptive for main photo">
+      <option name="closed" value="true" />
+      <created>1710779649680</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710779649680</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +259,12 @@
     <MESSAGE value="Refactored tab menu" />
     <MESSAGE value="Added a preview button for projects" />
     <MESSAGE value="Styled testimony block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styled testimony block" />
+    <MESSAGE value="Centered slogan section" />
+    <MESSAGE value="Edited footer section" />
+    <MESSAGE value="Edited svg sprite" />
+    <MESSAGE value="Created pop up for mobile adaptive" />
+    <MESSAGE value="Created a burger button styles" />
+    <MESSAGE value="Adaptive for main photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaptive for main photo" />
   </component>
 </project>
