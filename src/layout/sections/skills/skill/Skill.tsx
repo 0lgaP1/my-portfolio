@@ -3,6 +3,7 @@ import {Icon} from "../../../../components/icon/Icon";
 import styled from "styled-components";
 import {FlexWrapper} from "../../../../components/FlexWrapper";
 import {IconWrapper} from "../../../../components/IconWrapper";
+import {theme} from "../../../../styles/Theme";
 
 
 type SkillPropsType = {
@@ -25,8 +26,13 @@ export const Skill = (props: SkillPropsType) => {
 };
 
 const StyledSkill = styled.div`
-    width: 380px;
-    padding: 60px 40px 20px 62px;
+    width: 330px;
+    flex-grow: 1;
+    padding: 62px 40px 20px 62px;
+    
+    @media ${theme.media.mobile} {
+        padding: 62px 0 62px;
+    }
 `
 
 const SkillTitle = styled.h3`
