@@ -1,68 +1,57 @@
 import React from 'react';
-import styled from "styled-components";
-import {FlexWrapper} from "../FlexWrapper";
-import {theme} from "../../styles/Theme";
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import {Name, StyledSlide, StyledSlider, StyledText} from "./SliderStyles";
 
-export const Slider = () => {
+
+type SlidePropsType = {
+    text: string
+    userName: string
+}
+
+const Slide = (props: SlidePropsType) => {
     return (
-        <StyledSlider>
-            <FlexWrapper>
-                <Slide>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.</Text>
-                    <Name>@ivan ivanow</Name>
-                </Slide>
-            </FlexWrapper>
-            <Pagination>
-                <span> </span>
-                <span className={"active"}> </span>
-                <span> </span>
-            </Pagination>
-        </StyledSlider>
-    );
-};
+        <StyledSlide>
+            <StyledText>{props.text}</StyledText>
+            <Name>@{props.userName}</Name>
+        </StyledSlide>
+    )
+}
 
-const StyledSlider = styled.div`
-    border: 1px solid red;
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`
+const items = [
+    <Slide text={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}           userName={"Ivan Ivanov"}/>,
+    <Slide text={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} userName={"Petr Petrov"}/>,
+    <Slide text={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} userName={"Igor Igorev"}/>,
+];
 
-const Slide = styled.div`
-    text-align: center;
-`
+export const Slider = () => (
+    <StyledSlider>
+        <AliceCarousel
+            mouseTracking
+            items={items}
+        />
+    </StyledSlider>
 
-const Text = styled.p`
-    
-`
+);
+// import React from 'react';
+// import styled from "styled-components";
+// import {FlexWrapper} from "../FlexWrapper";
+// import {theme} from "../../styles/Theme";
+//
+// export const Slider = () => {
+//     return (
+//         <StyledSlider>
+//             <FlexWrapper>
+//
+//             </FlexWrapper>
+//             <Pagination>
+//                 <span> </span>
+//                 <span className={"active"}> </span>
+//                 <span> </span>
+//             </Pagination>
+//         </StyledSlider>
+//     );
+// };
 
-const Name = styled.span`
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin: 22px 0 16px;
-    display: inline-block;
-`
-const Pagination = styled.div`
-    span {
-        display: inline-block;
-        width: 7px;
-        height: 7px;
-        border-radius: 20px;
-        background-color: rgba(129, 110, 162, 0.95);
 
-        & + span {
-            margin-left: 5px;
-        }
-        
-        &.active {
-            background-color: ${theme.colors.accent};
-            width: 20px;
-        }
-    }
-`
+

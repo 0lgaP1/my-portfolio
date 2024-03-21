@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Adaptive for main photo">
-      <change afterPath="$PROJECT_DIR$/src/styles/Common.ts" afterDir="false" />
+    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Responsive work section (button blur for mobile, gaps)">
+      <change afterPath="$PROJECT_DIR$/src/components/slider/SliderStyles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +149,7 @@
       <workItem from="1709559530921" duration="18818000" />
       <workItem from="1709807610737" duration="18704000" />
       <workItem from="1710283194020" duration="523000" />
-      <workItem from="1710797396485" duration="846000" />
+      <workItem from="1710797396485" duration="18983000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
@@ -233,7 +239,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710779649680</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="White-space for name, styles for the photo on mobile">
+      <option name="closed" value="true" />
+      <created>1710799559799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710799559799</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Responsive skill items">
+      <option name="closed" value="true" />
+      <created>1710939185777</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710939185777</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Responsive work section (button blur for mobile, gaps)">
+      <option name="closed" value="true" />
+      <created>1710949316672</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710949316672</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +295,9 @@
     <MESSAGE value="Created pop up for mobile adaptive" />
     <MESSAGE value="Created a burger button styles" />
     <MESSAGE value="Adaptive for main photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adaptive for main photo" />
+    <MESSAGE value="White-space for name, styles for the photo on mobile" />
+    <MESSAGE value="Responsive skill items" />
+    <MESSAGE value="Responsive work section (button blur for mobile, gaps)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive work section (button blur for mobile, gaps)" />
   </component>
 </project>
