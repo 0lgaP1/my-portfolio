@@ -1,6 +1,7 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import './slider.css'
 import {Name, StyledSlide, StyledSlider, StyledText} from "./SliderStyles";
 
 
@@ -33,25 +34,6 @@ export const Slider = () => (
     </StyledSlider>
 
 );
-// import React from 'react';
-// import styled from "styled-components";
-// import {FlexWrapper} from "../FlexWrapper";
-// import {theme} from "../../styles/Theme";
-//
-// export const Slider = () => {
-//     return (
-//         <StyledSlider>
-//             <FlexWrapper>
-//
-//             </FlexWrapper>
-//             <Pagination>
-//                 <span> </span>
-//                 <span className={"active"}> </span>
-//                 <span> </span>
-//             </Pagination>
-//         </StyledSlider>
-//     );
-// };
 
 
 
