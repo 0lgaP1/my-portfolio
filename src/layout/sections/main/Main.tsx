@@ -6,6 +6,7 @@ import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
 import {font} from "../../../styles/Common";
 import Typewriter from 'typewriter-effect';
+import Tilt from 'react-parallax-tilt';
 
 export const Main = () => {
     return (
@@ -28,9 +29,17 @@ export const Main = () => {
                         </MainTitle>
                     </StyledText>
 
+                <Tilt
+                    glareEnable={true}
+                    glareMaxOpacity={0.8}
+                    glareColor="#ffffff"
+                    glarePosition="bottom"
+                    glareBorderRadius="20px">
                     <PhotoWrapper>
                         <Photo src={photo} alt="Main photo"/>
                     </PhotoWrapper>
+                </Tilt>
+
                 </FlexWrapper>
             </Container>
         </StyledMain>
