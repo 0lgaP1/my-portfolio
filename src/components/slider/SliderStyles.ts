@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import {theme} from "../../styles/Theme";
-
 export const StyledSlider = styled.div`
     border: 1px solid red;
     max-width: 500px;
@@ -27,23 +25,4 @@ export const Name = styled.span`
     text-transform: uppercase;
     margin: 22px 0 36px;
     display: inline-block;
-`
-const Pagination = styled.div`
-    span {
-        display: inline-block;
-        width: 7px;
-        height: 7px;
-        
-        border-radius: 20px;
-        background-color: rgba(129, 110, 162, 0.95);
-
-        & + span {
-            margin-left: 5px;
-        }
-        
-        &.active {
-            background-color: ${theme.colors.accent};
-            width: 20px;
-        }
-    }
 `

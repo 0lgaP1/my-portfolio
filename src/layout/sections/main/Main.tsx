@@ -5,6 +5,7 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
 import {font} from "../../../styles/Common";
+import Typewriter from 'typewriter-effect';
 
 export const Main = () => {
     return (
@@ -13,8 +14,18 @@ export const Main = () => {
                 <FlexWrapper align={"center"} justify={"space-around"} wrap={"wrap"}>
                     <StyledText>
                         <SmallText>Hi there!</SmallText>
-                        <NameText>I'm <span>Olga Patapchuk</span></NameText>
-                        <MainTitle>A Web Developer</MainTitle>
+                        <NameText>I'm <span>Olga P</span></NameText>
+                        <MainTitle>
+                            <Typewriter
+                                options={{
+                                    strings: ['A web developer', 'A frontend developer'],
+                                    autoStart: true,
+                                    loop: true,
+                                    delay: 50,
+                                }}
+                            />
+                            <p>A Web Developer</p>
+                        </MainTitle>
                     </StyledText>
 
                     <PhotoWrapper>
@@ -79,7 +90,11 @@ const NameText = styled.h2`
 `
 
 const MainTitle = styled.h1`
-    ${font( {weight: 400, Fmax: 27, Fmin: 20})}
+    ${font( {weight: 400, Fmax: 27, Fmin: 20})};
+
+    p {
+        display: none;
+    }
 `
 const PhotoWrapper = styled.div`
     position: relative;
