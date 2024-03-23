@@ -71,15 +71,14 @@ const SocialLink = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
-    
     color: ${theme.colors.accent};
 }
 
-    &:hover {
+&:hover {
     cursor: pointer;
     background-color: ${theme.colors.accent};
     color: ${theme.colors.secondaryBg};
-    transform: translateY(-4px);   
+    transform: translateY(-4px);
 `
 
 const Copyright = styled.small`
