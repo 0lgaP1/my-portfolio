@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Responsive work section (button blur for mobile, gaps)">
-      <change afterPath="$PROJECT_DIR$/src/components/particles/Particle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/Menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/headermenu/HeaderMenuStyles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headermenu/HeaderMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headermenu/HeaderMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/mobilemenu/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/mobilemenu/MobileMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -108,6 +109,7 @@
       <recent name="C:\Users\Dell\WebstormProjects\portfolio-start-project\public" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\layout\header\headermenu\HeaderMenuStyles.tsx" />
       <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\IconWrapper.tsx" />
     </key>
   </component>
@@ -146,7 +148,7 @@
       <workItem from="1709807610737" duration="18704000" />
       <workItem from="1710283194020" duration="523000" />
       <workItem from="1710797396485" duration="30578000" />
-      <workItem from="1711201983868" duration="2164000" />
+      <workItem from="1711201983868" duration="6722000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
