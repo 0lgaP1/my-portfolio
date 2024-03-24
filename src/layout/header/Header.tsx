@@ -6,9 +6,6 @@ import {FlexWrapper} from "../../components/FlexWrapper";
 import {HeaderMenu} from "./headermenu/HeaderMenu";
 import {MobileMenu} from "./mobilemenu/MobileMenu";
 
-
-
-
 export const Header = () => {
     return (
         <StyledHeader>
