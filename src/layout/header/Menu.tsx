@@ -1,7 +1,6 @@
 import React from 'react';
-import {Link, ListItem, Mask} from "./headermenu/HeaderMenuStyles";
+import {ListItem, Mask, NavLink} from "./headermenu/HeaderMenuStyles";
 
-// const items = ["Home", "Skills", "Works", "Testimony", "Contact"]
 const items = [
     {
         title: "Home",
@@ -26,9 +25,11 @@ const items = [
 export const Menu: React.FC = () => {
     return (
         <ul>
-            {items.map((item, index)=>{
+            {items.map((item, index) => {
                 return <ListItem key={index}>
-                    <Link href={`#${item.href}`}>
+                    <NavLink to={item.href}
+                             smooth={true}
+                    >
                         {item.title}
                         <Mask>
                             <span>{item.title} </span>
@@ -36,7 +37,7 @@ export const Menu: React.FC = () => {
                         < Mask>
                             <span>{item.title} </span>
                         </Mask>
-                    </Link>
+                    </NavLink>
                 </ListItem>
             })}
         </ul>

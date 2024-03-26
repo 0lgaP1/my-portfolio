@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme";
+import {Link} from "react-scroll";
 
 export const StyledHeaderMenu = styled.nav`
     ul {
@@ -11,7 +12,7 @@ export const StyledHeaderMenu = styled.nav`
         display: none;
     }
 `
-export const Link = styled.a`
+export const NavLink = styled(Link)`
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 30px;
