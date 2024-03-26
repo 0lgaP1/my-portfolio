@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Responsive work section (button blur for mobile, gaps)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/headermenu/HeaderMenuStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headermenu/HeaderMenuStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,7 @@
       <workItem from="1710283194020" duration="523000" />
       <workItem from="1710797396485" duration="30578000" />
       <workItem from="1711201983868" duration="7627000" />
-      <workItem from="1711322101751" duration="3098000" />
+      <workItem from="1711322101751" duration="4065000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />

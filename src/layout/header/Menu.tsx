@@ -29,6 +29,8 @@ export const Menu: React.FC = () => {
                 return <ListItem key={index}>
                     <NavLink to={item.href}
                              smooth={true}
+                             activeClass="active"
+                             spy={true}
                     >
                         {item.title}
                         <Mask>

@@ -12,13 +12,6 @@ export const StyledHeaderMenu = styled.nav`
         display: none;
     }
 `
-export const NavLink = styled(Link)`
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    text-align: center;
-    color: transparent;
-`
 export const Mask = styled.span`
     position: absolute;
     top: 0;
@@ -40,34 +33,42 @@ export const Mask = styled.span`
 `
 export const ListItem = styled.li`
     position: relative;
+`
 
-    &::before {
-        content: "";
-        display: inline-block;
-        height: 3px;
-        background-color: ${theme.colors.accent};
+export const NavLink = styled(Link)`
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: transparent;
 
-        position: absolute;
-        top: 50%;
-        left: -10px;
-        right: -10px;
-        z-index: 1;
-
-        transform: scale(0);
-    }
-
-    &:hover {
         &::before {
-            transform: scale(1);
+                content: "";
+                display: inline-block;
+                height: 3px;
+                background-color: ${theme.colors.accent};
+
+                position: absolute;
+                top: 50%;
+                left: -10px;
+                right: -10px;
+                z-index: 1;
+
+                transform: scale(0);
         }
 
-        ${Mask} {
-            color: ${theme.colors.font};
-            transform: skewX(12deg) translateX(5px);
+        &:hover, &.active {
+                &::before {
+                        transform: scale(1);
+                }
 
-            & + ${Mask} {
-                transform: skewX(12deg) translateX(-5px);
-            }
-        }
-    }
+                ${Mask} {
+                        color: ${theme.colors.font};
+                        transform: skewX(12deg) translateX(5px);
+
+                        & + ${Mask} {
+                                transform: skewX(12deg) translateX(-5px);
+                        }
+                }
+        }    
 `
