@@ -21,6 +21,7 @@ export const Mask = styled.span`
     overflow-y: hidden;
     //outline: 1px solid red;
     color: ${theme.colors.accent};
+    transition: ${theme.animations.transition};
 
     & + & {
         top: 50%;
@@ -55,6 +56,7 @@ export const NavLink = styled(Link)`
                 z-index: 1;
 
                 transform: scale(0);
+                transition: ${theme.animations.transition};
         }
 
         &:hover, &.active {
