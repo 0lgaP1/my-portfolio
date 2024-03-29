@@ -46,13 +46,14 @@ const StyledWorkCard = styled.div`
 `
 
 const ImageWrapper = styled.div`
-    position: relative;
+    position: relative; 
 ${Button} {
     opacity: 0;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
+    transition: ${theme.animations.transition};
 
     &::before {
         width: 100%;
@@ -68,8 +69,9 @@ ${Button} {
         top: 0;
         bottom: 0;
         background-color: rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(2px);
         opacity: 0;
+        transition: ${theme.animations.transition};
     }
         
         &:hover {
@@ -79,6 +81,7 @@ ${Button} {
         
         ${Button} {
             opacity: 1;
+            transform: translate(-50%, -50%);
         }
     }
     

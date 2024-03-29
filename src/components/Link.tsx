@@ -26,5 +26,7 @@ export const Link = styled.a`
         right: 0;
         background-color: ${theme.colors.accent};
         z-index: -1;
+        height: 0;
+        transition: ${theme.animations.transition};
     }
 `
