@@ -1,6 +1,5 @@
 import styled from "styled-components";
 export const StyledSlider = styled.div`
-    border: 1px solid red;
     max-width: 500px;
     width: 100%;
     display: flex;

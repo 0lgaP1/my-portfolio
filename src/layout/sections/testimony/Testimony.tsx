@@ -4,7 +4,6 @@ import {Icon} from "../../../components/icon/Icon";
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Slider} from "../../../components/slider/Slider";
-
 import {IconWrapper} from "../../../components/IconWrapper";
 import {Container} from "../../../components/Container";
 
