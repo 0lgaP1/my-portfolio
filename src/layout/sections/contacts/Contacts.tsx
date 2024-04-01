@@ -1,20 +1,42 @@
-import React from 'react';
+import React, {ElementRef, useRef} from 'react';
 import {SectionTitle} from "../../../components/SectionTitle";
 import styled from "styled-components";
 import {Button} from "../../../components/Button";
 import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
+import emailjs from '@emailjs/browser';
 
 
-export const Contacts = () => {
+
+export const Contacts = () => {const form = useRef<ElementRef<'form'>>(null);
+
+    const sendEmail = (e: any) => {
+        e.preventDefault();
+
+    if(!form.current) return
+        
+        emailjs
+            .sendForm('service_9i6a211', 'template_m6r1czg', form.current, {
+                publicKey: 'q5q8KTyn8A0leWgX2',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
     return (
         <StyledContacts id={"contact"}>
             <Container>
                 <SectionTitle>Contact</SectionTitle>
-                <StyledForm>
-                    <Field placeholder={"Your name"}/>
-                    <Field placeholder={"Enter a subject"}/>
-                    <Field placeholder="Enter your message" as={"textarea"} />
+                <StyledForm ref={form} onSubmit={sendEmail}>
+                    <Field required placeholder={"Your name"} name={'user_name'}/>
+                    <Field required placeholder={"Enter a subject"} name={'subject'}/>
+                    <Field required placeholder={"Your email"} name={'email'}/>
+                    <Field required placeholder="Enter your message" as={"textarea"} name={'message'}/>
                     <Button type={"submit"}>Send message</Button>
                 </StyledForm>
             </Container>
