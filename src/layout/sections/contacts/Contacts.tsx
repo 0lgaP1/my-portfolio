@@ -27,6 +27,7 @@ export const Contacts = () => {const form = useRef<ElementRef<'form'>>(null);
                     console.log('FAILED...', error.text);
                 },
             );
+        e.target.reset()
     };
     return (
         <StyledContacts id={"contact"}>
