@@ -8,14 +8,14 @@ import socialImg from "../../../assets/img/social network.png";
 import timerImg from "../../../assets/img/timer.png";
 import {Container} from "../../../components/Container";
 
-const workItems = ["All", "Landing page", "React", "SPA"]
+const tabsItems = ["All", "Landing page", "React", "SPA"]
 
 export const Works = () => {
     return (
         <StyledWorks id={"works"}>
             <Container>
                 <SectionTitle>My works</SectionTitle>
-                <TabMenu menuItems={workItems}/>
+                <TabMenu tabsItems={tabsItems}/>
                 <FlexWrapper justify={"space-between"} align={"flex-start"} wrap={"wrap"}>
                     <WorkCard src={socialImg} title={"Social network"} description={"Lorem ipsum dolor"}/>
                     <WorkCard src={timerImg} title={"Timer"} description={"Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor"}/>
