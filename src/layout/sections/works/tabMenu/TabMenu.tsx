@@ -2,13 +2,13 @@ import React from 'react';
 import styled from "styled-components";
 import {Link} from "../../../../components/Link"
 
-export const TabMenu = (props: {tabsItems: Array<string>}) => {
+export const TabMenu = (props: {tabsItems: Array<{status: "all" | "landing" | "react" | "spa", title: string}>}) => {
     return (
         <StyledMenu>
             <ul>
-                {props.tabsItems.map((item:string, index:number)=>{
+                {props.tabsItems.map((item, index:number)=>{
                     return <ListItem key={index}>
-                        <Link href="">{item}</Link>
+                        <Link href="">{item.status}</Link>
                     </ListItem>
                 })}
             </ul>

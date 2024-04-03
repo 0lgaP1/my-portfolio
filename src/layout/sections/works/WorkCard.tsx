@@ -7,7 +7,8 @@ import {Button} from "../../../components/Button";
 type WorkCardPropsType = {
     src: string;
     title: string;
-    description: string;
+    text: string;
+    status: string;
 }
 export const WorkCard = (props: WorkCardPropsType) => {
     return (
@@ -19,7 +20,7 @@ export const WorkCard = (props: WorkCardPropsType) => {
 
             <Description>
                 <WorkCardTitle>{props.title}</WorkCardTitle>
-                <WorkCardText>{props.description}</WorkCardText>
+                <WorkCardText>{props.text}</WorkCardText>
                 <Link href={"#"}>Demo</Link>
                 <Link href={"#"}>Code</Link>
             </Description>
