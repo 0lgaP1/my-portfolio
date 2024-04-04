@@ -21,7 +21,7 @@ export const WorkCard = (props: WorkCardPropsType) => {
             <Description>
                 <WorkCardTitle>{props.title}</WorkCardTitle>
                 <WorkCardText>{props.text}</WorkCardText>
-                <Link href={"#"}>Demo</Link>
+                <Link active href={"#"}>Demo</Link>
                 <Link href={"#"}>Code</Link>
             </Description>
         </StyledWorkCard>

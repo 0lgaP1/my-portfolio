@@ -3,14 +3,14 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 import {SectionTitle} from "../../../components/SectionTitle";
 import styled from "styled-components";
 import {WorkCard} from "./WorkCard";
-import {TabMenu} from "./tabMenu/TabMenu";
+import {TabMenu, TabsStatusType} from "./tabMenu/TabMenu";
 import socialImg from "../../../assets/img/social network.png";
 import timerImg from "../../../assets/img/timer.png";
 import {Container} from "../../../components/Container";
 
 // const tabsItems = ["All", "Landing page", "React", "SPA"]
 
-const tabsItems: Array<{status: "all" | "landing" | "react" | "spa", title: string}> = [
+const tabsItems: Array<{status: TabsStatusType, title: string}> = [
     {
         title: "All",
         status: "all",
@@ -47,7 +47,7 @@ const worksData = [
 
 ]
 export const Works = () => {
-    const [currentFilterStatus, setCurrentFilterStatus] = useState("all")
+    const [currentFilterStatus, setCurrentFilterStatus] = useState<TabsStatusType>("all")
     let filteredWorks = worksData
 
     if (currentFilterStatus === "landing") {
@@ -62,7 +62,7 @@ export const Works = () => {
         filteredWorks = worksData.filter(work => work.type === "spa")
     }
 
-    function changeFilterStatus (value: "all" | "landing" | "react" | "spa") {
+    function changeFilterStatus (value: TabsStatusType) {
         setCurrentFilterStatus(value)
     }
 
@@ -70,7 +70,10 @@ export const Works = () => {
         <StyledWorks id={"works"}>
             <Container>
                 <SectionTitle>My works</SectionTitle>
-                <TabMenu tabsItems={tabsItems} changeFilterStatus={changeFilterStatus}/>
+                <TabMenu tabsItems={tabsItems}
+                         changeFilterStatus={changeFilterStatus}
+                         currentFilterStatus={currentFilterStatus}
+                />
                 <FlexWrapper justify={"space-between"} align={"flex-start"} wrap={"wrap"}>
                     {filteredWorks.map((w)=> {
                         return <WorkCard
