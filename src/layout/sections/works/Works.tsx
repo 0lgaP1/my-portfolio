@@ -62,11 +62,15 @@ export const Works = () => {
         filteredWorks = worksData.filter(work => work.type === "spa")
     }
 
+    function changeFilterStatus (value: "all" | "landing" | "react" | "spa") {
+        setCurrentFilterStatus(value)
+    }
+
     return (
         <StyledWorks id={"works"}>
             <Container>
                 <SectionTitle>My works</SectionTitle>
-                <TabMenu tabsItems={tabsItems}/>
+                <TabMenu tabsItems={tabsItems} changeFilterStatus={changeFilterStatus}/>
                 <FlexWrapper justify={"space-between"} align={"flex-start"} wrap={"wrap"}>
                     {filteredWorks.map((w)=> {
                         return <WorkCard
