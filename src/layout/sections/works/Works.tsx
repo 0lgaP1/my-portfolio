@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {SectionTitle} from "../../../components/SectionTitle";
 import styled from "styled-components";
@@ -28,11 +28,11 @@ const tabsItems: Array<{status: "all" | "landing" | "react" | "spa", title: stri
 
     {
         title: "SPA",
-        status: "spa"
+        status: "spa",
     },
 ]
 
-const WorkData = [
+const worksData = [
     {   src: socialImg,
         title: 'Social network',
         text: "Lorem ipsum dolor",
@@ -47,13 +47,28 @@ const WorkData = [
 
 ]
 export const Works = () => {
+    const [currentFilterStatus, setCurrentFilterStatus] = useState("all")
+    let filteredWorks = worksData
+
+    if (currentFilterStatus === "landing") {
+        filteredWorks = worksData.filter(work => work.type === "landing")
+    }
+
+    if (currentFilterStatus === "react") {
+        filteredWorks = worksData.filter(work => work.type === "react")
+    }
+
+    if (currentFilterStatus === "spa") {
+        filteredWorks = worksData.filter(work => work.type === "spa")
+    }
+
     return (
         <StyledWorks id={"works"}>
             <Container>
                 <SectionTitle>My works</SectionTitle>
                 <TabMenu tabsItems={tabsItems}/>
                 <FlexWrapper justify={"space-between"} align={"flex-start"} wrap={"wrap"}>
-                    {WorkData.map((w)=> {
+                    {filteredWorks.map((w)=> {
                         return <WorkCard
                                 title={w.title}
                                 src={w.src}
