@@ -41,17 +41,24 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     transform: translateY(-100%);
     transition: 0.6s ease-in-out;
 
-    ${props => props.isOpen && css<{ isOpen: boolean }>`
-        transform: translateY(0);
-    `}
+    }
     
     ul {
         display: flex;
-        gap: 30px;
+        gap: 10px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        transition: 1s ease-in-out;
     }
+    
+    ${props => props.isOpen && css<{ isOpen: boolean }>`
+        transform: translateY(0);
+
+    & ul {
+        gap: 40px;
+    }
+    `}
 `
 
 const BurgerButton = styled.button<{ isOpen: boolean }>`
