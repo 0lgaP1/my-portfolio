@@ -6,6 +6,8 @@ import {Container} from "../../components/Container";
 import {theme} from "../../styles/Theme";
 import {font} from "../../styles/Common";
 
+
+
 export const Footer = () => {
     return (
         <StyledFooter>
@@ -34,6 +36,7 @@ export const Footer = () => {
                             </SocialLink>
                         </SocialItem>
                     </SocialList>
+
                     <Copyright>© 2024 Olga Patapchuk, All Rights Reserved.</Copyright>
                 </FlexWrapper>
             </Container>
