@@ -48,13 +48,13 @@ const StyledWorkCard = styled.div`
 
 const ImageWrapper = styled.div`
     position: relative; 
-${Button} {
-    opacity: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -40%);
-    transition: ${theme.animations.transition};
+        ${Button} {
+            opacity: 0;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -40%);
+            transition: ${theme.animations.transition};
 
     &::before {
         width: 100%;

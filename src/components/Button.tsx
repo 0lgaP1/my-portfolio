@@ -9,6 +9,7 @@ export const Button = styled.button`
     width: 170px;
     height: 32px;
     z-index: 0;
+    position: relative;
 
     &:hover {
         &::before {
@@ -16,9 +17,7 @@ export const Button = styled.button`
             width: 100%;
         }
     }
-
-    position: relative;
-
+    
     &::before {
         content: "";
         display: inline-block;

@@ -59,7 +59,7 @@ export const NavLink = styled(Link)`
                 transition: ${theme.animations.transition};
         }
 
-        &:hover, &.active {
+        &:hover, &:active {
                 &::before {
                         transform: scale(1);
                 }

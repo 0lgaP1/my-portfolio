@@ -41,7 +41,9 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     transform: translateY(-100%);
     transition: 0.6s ease-in-out;
 
-    }
+    ${props => props.isOpen && css<{isOpen: boolean}> `
+    transform: translateY(0);
+    `}
     
     ul {
         display: flex;
