@@ -7,6 +7,7 @@ import {TabMenu, TabsStatusType} from "./tabMenu/TabMenu";
 import socialImg from "../../../assets/img/social network.png";
 import timerImg from "../../../assets/img/timer.png";
 import {Container} from "../../../components/Container";
+import {AnimatePresence, motion} from "framer-motion"
 
 // const tabsItems = ["All", "Landing page", "React", "SPA"]
 
@@ -37,12 +38,42 @@ const worksData = [
         title: 'Social network',
         text: "Lorem ipsum dolor",
         type: "spa",
+        id: 1,
     },
 
     {   src: timerImg,
         title: "Timer",
         text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
         type: "react",
+        id: 2
+    },
+
+    {   src: socialImg,
+        title: 'Social network',
+        text: "Lorem ipsum dolor",
+        type: "spa",
+        id: 3,
+    },
+
+    {   src: timerImg,
+        title: "Timer",
+        text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
+        type: "react",
+        id: 4
+    },
+
+    {   src: socialImg,
+        title: 'Social network',
+        text: "Lorem ipsum dolor",
+        type: "spa",
+        id: 5,
+    },
+
+    {   src: timerImg,
+        title: "Timer",
+        text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
+        type: "landing",
+        id: 6
     },
 
 ]
@@ -75,13 +106,29 @@ export const Works = () => {
                          currentFilterStatus={currentFilterStatus}
                 />
                 <FlexWrapper justify={"space-between"} align={"flex-start"} wrap={"wrap"}>
-                    {filteredWorks.map((w)=> {
-                        return <WorkCard
-                                title={w.title}
-                                src={w.src}
-                                text={w.text}
-                                status={w.type} />
+                    <AnimatePresence>
+
+                        {filteredWorks.map((w)=> {
+                            return (
+                                <motion.div style={{width: "400px", flexGrow: 1, maxWidth: "540px"}}
+                                    layout={true}
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0 }}
+                                    key={w.id}
+                                >
+                                    <WorkCard
+                                        title={w.title}
+                                        src={w.src}
+                                        text={w.text}
+                                        status={w.type}
+                                        key={w.id}
+                                        />
+                                </motion.div>
+                                )
+
                         })}
+                    </AnimatePresence>
                 </FlexWrapper>
             </Container>
         </StyledWorks>

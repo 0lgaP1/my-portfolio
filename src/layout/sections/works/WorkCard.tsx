@@ -30,8 +30,8 @@ export const WorkCard = (props: WorkCardPropsType) => {
 
 const StyledWorkCard = styled.div`
     background-color: ${theme.colors.secondaryBg};
-    width: 330px;
-    flex-grow: 1;
+    //width: 330px;
+    //flex-grow: 1;
 
     ${Link} {
         padding: 10px 0;
@@ -41,9 +41,9 @@ const StyledWorkCard = styled.div`
         }
     }
 
-    @media ${theme.media.desktop} {
-        max-width: 540px;
-    }
+    // @media ${theme.media.desktop} {
+    //     max-width: 540px;
+    // }
 `
 
 const ImageWrapper = styled.div`
