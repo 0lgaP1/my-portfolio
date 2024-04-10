@@ -1,5 +1,5 @@
 import React from 'react';
-import {ListItem, Mask, NavLink} from "./headermenu/HeaderMenuStyles";
+import {S} from '../Header_Styles';
 
 const items = [
     {
@@ -26,21 +26,18 @@ export const Menu: React.FC = () => {
     return (
         <ul>
             {items.map((item, index) => {
-                return <ListItem key={index}>
-                    <NavLink to={item.href}
-                             smooth={true}
-                             activeClass="active"
-                             spy={true}
+                return <S.MenuItem key={index}>
+                    <S.NavLink
                     >
                         {item.title}
-                        <Mask>
+                        <S.Mask>
                             <span>{item.title} </span>
-                        </Mask>
-                        < Mask>
+                        </S.Mask>
+                        <S.Mask>
                             <span>{item.title} </span>
-                        </Mask>
-                    </NavLink>
-                </ListItem>
+                        </S.Mask>
+                    </S.NavLink>
+                </S.MenuItem>
             })}
         </ul>
     );

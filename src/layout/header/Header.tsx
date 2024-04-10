@@ -1,30 +1,33 @@
 import React from "react";
-import styled from "styled-components";
 import {Logo} from "../../components/logo/Logo";
 import {Container} from "../../components/Container";
 import {FlexWrapper} from "../../components/FlexWrapper";
-import {HeaderMenu} from "./headermenu/HeaderMenu";
+import {DesctopMenu} from "./desctopmenu/DesctopMenu";
 import {MobileMenu} from "./mobilemenu/MobileMenu";
+import {S} from "./Header_Styles"
 
-export const Header = () => {
+export const Header: React.FC<{menuItems: Array<string>}> = (props: {menuItems: Array<string>}) => {
+
+    const [width, setWidth] = React.useState(window.innerWidth);
+    const breakpoint = 768;
+
+    React.useEffect (()=>{
+        const handleWindowResize = () => setWidth(window.innerWidth)
+        window.addEventListener("resize", handleWindowResize);
+        return () => window.removeEventListener("resize", handleWindowResize);
+    }, []);
+
     return (
-        <StyledHeader>
+        <S.Header>
             <Container>
                 <FlexWrapper justify={"space-between"} align={"center"}>
                     <Logo/>
-                    <HeaderMenu />
-                    <MobileMenu />
+
+                    {width < breakpoint ? <MobileMenu menuItems={props.menuItems}/>
+                                        : <DesctopMenu menuItems={props.menuItems}/>}
                 </FlexWrapper>
             </Container>
-        </StyledHeader>
+        </S.Header>
     );
 };
 
-const StyledHeader = styled.header`
-    background-color: rgba(31, 31, 32, 0.93);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99999;
-`
