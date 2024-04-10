@@ -48,6 +48,7 @@ export const Main = () => {
 
 const StyledMain = styled.section`
     display: flex;
+    
 `
 
 const Photo = styled.img`

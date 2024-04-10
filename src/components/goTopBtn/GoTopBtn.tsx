@@ -20,7 +20,7 @@ export const GoTopBtn = () => {
         <>
             {showBtn && (
                 <StyledGoTopBtn onClick={() => {scroll.scrollToTop()}}>
-                    <Icon iconId={"quote"} width={"16"} height={"15"}/>
+                    <Icon iconId={"arrow"} width={"16"} height={"15"} viewBox={"0 0 32 20"}/>
                 </StyledGoTopBtn>
             )}
         </>

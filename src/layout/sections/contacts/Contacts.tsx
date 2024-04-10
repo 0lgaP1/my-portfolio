@@ -46,7 +46,7 @@ export const Contacts = () => {const form = useRef<ElementRef<'form'>>(null);
 };
 
 const StyledContacts = styled.section`
-        
+    position: relative;
 `
 
 const StyledForm = styled.form`

@@ -8,11 +8,13 @@ import {Contacts} from "./layout/sections/contacts/Contacts";
 import {Slogan} from "./layout/sections/slogan/Slogan";
 import {Footer} from "./layout/footer/Footer";
 import {GoTopBtn} from "./components/goTopBtn/GoTopBtn";
+import {Particle} from "./components/particles/Particle";
 
 
 function App() {
     return (
         <div className="App">
+            <Particle />
             <Header/>
             <Main/>
             <Skills/>

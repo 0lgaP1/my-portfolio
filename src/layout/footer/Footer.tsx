@@ -16,22 +16,22 @@ export const Footer = () => {
                     <Name>Olga Patapchuk</Name>
                     <SocialList>
                         <SocialItem>
-                            <SocialLink>
-                                <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"instagram"}/>
+                            <SocialLink href="https://www.instagram.com/nlolya" target="_blank">
+                                <Icon height={"21"} width={"21"} viewBox={"0 0 21 21"} iconId={"instagram"}/>
                             </SocialLink>
                         </SocialItem>
                         <SocialItem>
-                            <SocialLink>
-                                <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"git"}/>
+                            <SocialLink href="https://github.com/0lgaP1" target="_blank">
+                                <Icon height={"21"} width={"21"} viewBox={"0 0 98 98"} iconId={"git"}/>
                             </SocialLink>
                         </SocialItem>
                         <SocialItem>
-                            <SocialLink>
+                            <SocialLink href="https://www.linkedin.com/in/olga-patapchuk-844857278/" target="_blank">
                                 <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"linkedin"}/>
                             </SocialLink>
                         </SocialItem>
                         <SocialItem>
-                            <SocialLink>
+                            <SocialLink href="https://t.me/therealnlolya/" target="_blank">
                                 <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"telegram"}/>
                             </SocialLink>
                         </SocialItem>
@@ -47,6 +47,7 @@ export const Footer = () => {
 const StyledFooter = styled.footer`
     background-color: ${theme.colors.primaryBg};
     padding: 40px 0;
+    position: relative;
 `
 
 const Name = styled.span`

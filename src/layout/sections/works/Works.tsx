@@ -11,7 +11,7 @@ import {AnimatePresence, motion} from "framer-motion"
 
 // const tabsItems = ["All", "Landing page", "React", "SPA"]
 
-const tabsItems: Array<{status: TabsStatusType, title: string}> = [
+const tabsItems: Array<{ status: TabsStatusType, title: string }> = [
     {
         title: "All",
         status: "all",
@@ -34,42 +34,48 @@ const tabsItems: Array<{status: TabsStatusType, title: string}> = [
 ]
 
 const worksData = [
-    {   src: socialImg,
+    {
+        src: socialImg,
         title: 'Social network',
         text: "Lorem ipsum dolor",
         type: "spa",
         id: 1,
     },
 
-    {   src: timerImg,
+    {
+        src: timerImg,
         title: "Timer",
         text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
         type: "react",
         id: 2
     },
 
-    {   src: socialImg,
+    {
+        src: socialImg,
         title: 'Social network',
         text: "Lorem ipsum dolor",
         type: "spa",
         id: 3,
     },
 
-    {   src: timerImg,
+    {
+        src: timerImg,
         title: "Timer",
         text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
         type: "react",
         id: 4
     },
 
-    {   src: socialImg,
+    {
+        src: socialImg,
         title: 'Social network',
         text: "Lorem ipsum dolor",
         type: "spa",
         id: 5,
     },
 
-    {   src: timerImg,
+    {
+        src: timerImg,
         title: "Timer",
         text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
         type: "landing",
@@ -93,7 +99,7 @@ export const Works = () => {
         filteredWorks = worksData.filter(work => work.type === "spa")
     }
 
-    function changeFilterStatus (value: TabsStatusType) {
+    function changeFilterStatus(value: TabsStatusType) {
         setCurrentFilterStatus(value)
     }
 
@@ -108,14 +114,14 @@ export const Works = () => {
                 <FlexWrapper justify={"space-between"} align={"flex-start"} wrap={"wrap"}>
                     <AnimatePresence>
 
-                        {filteredWorks.map((w)=> {
+                        {filteredWorks.map((w) => {
                             return (
                                 <motion.div style={{width: "400px", flexGrow: 1, maxWidth: "540px"}}
-                                    layout={true}
-                                    initial={{ opacity: 0 }}
-                                    animate={{ opacity: 1 }}
-                                    exit={{ opacity: 0 }}
-                                    key={w.id}
+                                            layout={true}
+                                            initial={{opacity: 0}}
+                                            animate={{opacity: 1}}
+                                            exit={{opacity: 0}}
+                                            key={w.id}
                                 >
                                     <WorkCard
                                         title={w.title}
@@ -123,9 +129,9 @@ export const Works = () => {
                                         text={w.text}
                                         status={w.type}
                                         key={w.id}
-                                        />
+                                    />
                                 </motion.div>
-                                )
+                            )
 
                         })}
                     </AnimatePresence>
@@ -136,6 +142,8 @@ export const Works = () => {
 };
 
 const StyledWorks = styled.section`
+    position: relative;
+
     ${FlexWrapper} {
         gap: 30px;
     }
