@@ -1,8 +1,8 @@
 import styled, {css} from "styled-components";
 import {theme} from "../../styles/Theme";
+import {Link} from "react-scroll";
 
 //Header
-
 const Header = styled.header`
     background-color: rgba(31, 31, 32, 0.93);
     position: fixed;
@@ -11,11 +11,7 @@ const Header = styled.header`
     right: 0;
     z-index: 99999;
 `
-
-
-
 //Menu
-
 const Mask = styled.span`
     position: absolute;
     top: 0;
@@ -38,7 +34,7 @@ const Mask = styled.span`
 const MenuItem = styled.li`
     position: relative;
 `
-const NavLink = styled.a`
+const NavLink = styled(Link)`
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 30px;
@@ -46,40 +42,38 @@ const NavLink = styled.a`
     color: transparent;
     //outline: 1px solid red;
 
+    &::before {
+        content: "";
+        display: inline-block;
+        height: 3px;
+        background-color: ${theme.colors.accent};
+
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        right: -10px;
+        z-index: 1;
+
+        transform: scale(0);
+        transition: ${theme.animations.transition};
+    }
+
+    &:hover, &.active {
         &::before {
-                content: "";
-                display: inline-block;
-                height: 3px;
-                background-color: ${theme.colors.accent};
-
-                position: absolute;
-                top: 50%;
-                left: -10px;
-                right: -10px;
-                z-index: 1;
-
-                transform: scale(0);
-                transition: ${theme.animations.transition};
+            transform: scale(1);
         }
 
-        &:hover, &:active {
-                &::before {
-                        transform: scale(1);
-                }
+        ${Mask} {
+            color: ${theme.colors.font};
+            transform: skewX(12deg) translateX(5px);
 
-                ${Mask} {
-                        color: ${theme.colors.font};
-                        transform: skewX(12deg) translateX(5px);
-
-                        & + ${Mask} {
-                                transform: skewX(12deg) translateX(-5px);
-                        }
-                }
-        }    
+            & + ${Mask} {
+                transform: skewX(12deg) translateX(-5px);
+            }
+        }
+    }
 `
-
 //MobileMenu
-
 const MobileMenu = styled.nav`
 `
 const BurgerButton = styled.button<{ isOpen: boolean }>`
@@ -146,10 +140,9 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     transform: translateY(-100%);
     transition: 0.6s ease-in-out;
 
-    ${props => props.isOpen && css<{isOpen: boolean}> `
-    transform: translateY(0);
+    ${props => props.isOpen && css<{ isOpen: boolean }>`
+        transform: translateY(0);
     `}
-    
     ul {
         display: flex;
         gap: 10px;
@@ -158,18 +151,17 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
         flex-direction: column;
         transition: 1s ease-in-out;
     }
-    
+
     ${props => props.isOpen && css<{ isOpen: boolean }>`
         transform: translateY(0);
 
-    & ul {
-        gap: 40px;
-    }
+        & ul {
+            gap: 40px;
+        }
     `}
 `
 
 // DesctopMenu
-
 const DesctopMenu = styled.nav`
     ul {
         display: flex;
@@ -189,5 +181,4 @@ export const S = {
     MobileMenuPopup,
 
     DesctopMenu,
-
 };

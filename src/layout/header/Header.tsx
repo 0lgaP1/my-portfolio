@@ -6,7 +6,7 @@ import {DesctopMenu} from "./desctopmenu/DesctopMenu";
 import {MobileMenu} from "./mobilemenu/MobileMenu";
 import {S} from "./Header_Styles"
 
-export const Header: React.FC<{menuItems: Array<string>}> = (props: {menuItems: Array<string>}) => {
+export const Header: React.FC = () => {
 
     const [width, setWidth] = React.useState(window.innerWidth);
     const breakpoint = 768;
@@ -23,8 +23,8 @@ export const Header: React.FC<{menuItems: Array<string>}> = (props: {menuItems: 
                 <FlexWrapper justify={"space-between"} align={"center"}>
                     <Logo/>
 
-                    {width < breakpoint ? <MobileMenu menuItems={props.menuItems}/>
-                                        : <DesctopMenu menuItems={props.menuItems}/>}
+                    {width < breakpoint ? <MobileMenu />
+                                        : <DesctopMenu />}
                 </FlexWrapper>
             </Container>
         </S.Header>
