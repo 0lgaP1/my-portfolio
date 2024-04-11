@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Props active for active link">
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/main/Main_Styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header_Styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header_Styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/desctopmenu/DesctopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/desctopmenu/DesctopMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/mobilemenu/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/mobilemenu/MobileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -158,7 +155,7 @@
       <workItem from="1712438623137" duration="315000" />
       <workItem from="1712438946751" duration="21924000" />
       <workItem from="1712742563511" duration="2673000" />
-      <workItem from="1712746636079" duration="5542000" />
+      <workItem from="1712746636079" duration="6523000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
@@ -345,5 +342,17 @@
     <MESSAGE value="Function changeFilterStatus for tabs" />
     <MESSAGE value="Props active for active link" />
     <option name="LAST_COMMIT_MESSAGE" value="Props active for active link" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/layout/sections/main/Main_Styles.tsx</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
