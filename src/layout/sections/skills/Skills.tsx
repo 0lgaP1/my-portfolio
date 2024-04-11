@@ -37,7 +37,7 @@ const skillData = [
         description: "It is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows.",
     }
 ]
-export const Skills = () => {
+export const Skills: React.FC = () => {
     return (
         <StyledSkills id={"skills"}>
             <Container>

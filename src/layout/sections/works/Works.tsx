@@ -83,7 +83,7 @@ const worksData = [
     },
 
 ]
-export const Works = () => {
+export const Works: React.FC = () => {
     const [currentFilterStatus, setCurrentFilterStatus] = useState<TabsStatusType>("all")
     let filteredWorks = worksData
 

@@ -2,7 +2,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import './slider.css'
-import {Name, StyledSlide, StyledSlider, StyledText} from "./SliderStyles";
+import {S} from "./Slider_Styles";
 
 
 type SlidePropsType = {
@@ -12,10 +12,10 @@ type SlidePropsType = {
 
 const Slide = (props: SlidePropsType) => {
     return (
-        <StyledSlide>
-            <StyledText>{props.text}</StyledText>
-            <Name>@{props.userName}</Name>
-        </StyledSlide>
+        <S.Slide>
+            <S.Text>{props.text}</S.Text>
+            <S.Name>@{props.userName}</S.Name>
+        </S.Slide>
     )
 }
 
@@ -26,12 +26,12 @@ const items = [
 ];
 
 export const Slider = () => (
-    <StyledSlider>
+    <S.Slider>
         <AliceCarousel
             mouseTracking
             items={items}
         />
-    </StyledSlider>
+    </S.Slider>
 
 );
 

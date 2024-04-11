@@ -1,93 +1,60 @@
 import React from 'react';
-import styled from "styled-components";
 import {Icon} from "../../components/icon/Icon";
 import {FlexWrapper} from "../../components/FlexWrapper";
 import {Container} from "../../components/Container";
-import {theme} from "../../styles/Theme";
-import {font} from "../../styles/Common";
+import {S} from "./Footer_Styles"
 
-
+const socialItemData = [
+    {
+        viewBox: "0 0 21 21",
+        iconId: "instagram",
+        href: "https://www.instagram.com/nlolya",
+    },
+    {
+        viewBox: "0 0 98 98",
+        iconId: "git",
+        href: "https://github.com/0lgaP1",
+    },
+    {
+        viewBox: "0 0 21 21",
+        iconId: "linkedin",
+        href: "https://www.linkedin.com/in/olga-patapchuk-844857278/",
+    },
+    {
+        viewBox: "0 0 21 21",
+        iconId: "telegram",
+        href: "https://t.me/therealnlolya/",
+    }
+]
 
 export const Footer = () => {
     return (
-        <StyledFooter>
+        <S.Footer>
             <Container>
                 <FlexWrapper direction={"column"} align={"center"}>
-                    <Name>Olga Patapchuk</Name>
-                    <SocialList>
-                        <SocialItem>
-                            <SocialLink href="https://www.instagram.com/nlolya" target="_blank">
-                                <Icon height={"21"} width={"21"} viewBox={"0 0 21 21"} iconId={"instagram"}/>
-                            </SocialLink>
-                        </SocialItem>
-                        <SocialItem>
-                            <SocialLink href="https://github.com/0lgaP1" target="_blank">
-                                <Icon height={"21"} width={"21"} viewBox={"0 0 98 98"} iconId={"git"}/>
-                            </SocialLink>
-                        </SocialItem>
-                        <SocialItem>
-                            <SocialLink href="https://www.linkedin.com/in/olga-patapchuk-844857278/" target="_blank">
-                                <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"linkedin"}/>
-                            </SocialLink>
-                        </SocialItem>
-                        <SocialItem>
-                            <SocialLink href="https://t.me/therealnlolya/" target="_blank">
-                                <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"telegram"}/>
-                            </SocialLink>
-                        </SocialItem>
-                    </SocialList>
+                    <S.Name>Olga Patapchuk</S.Name>
+                    <S.SocialList>
 
-                    <Copyright>© 2024 Olga Patapchuk, All Rights Reserved.</Copyright>
+                        {socialItemData.map((s, index) => {
+                            return (
+                                <S.SocialItem key={index}>
+                                    <S.SocialLink
+                                        href={s.href}
+                                        target="_blank">
+                                        <Icon height={"21"}
+                                              width={"21"}
+                                              viewBox={s.viewBox}
+                                              iconId={s.iconId}/>
+                                    </S.SocialLink>
+                                </S.SocialItem>
+                            )
+                        })}
+                    </S.SocialList>
+
+                    <S.Copyright>© 2024 Olga Patapchuk, All Rights Reserved.</S.Copyright>
                 </FlexWrapper>
             </Container>
-        </StyledFooter>
+        </S.Footer>
     );
 };
 
-const StyledFooter = styled.footer`
-    background-color: ${theme.colors.primaryBg};
-    padding: 40px 0;
-    position: relative;
-`
-
-const Name = styled.span`
-    ${font({family: "'Josefin Sans', sans-serif", weight: 700, Fmax: 22, Fmin: 16})}
-    letter-spacing: 3px;
-`
-
-const SocialList = styled.ul`
-    display: flex;
-    gap: 20px;
-    margin: 30px 0;
-`
-
-const SocialItem = styled.li`
-
-`
-
-const SocialLink = styled.a`
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: ${theme.colors.accent};
-    transition: ${theme.animations.transition};
-}
-
-&:hover {
-    cursor: pointer;
-    background-color: ${theme.colors.accent};
-    color: ${theme.colors.secondaryBg};
-    transform: translateY(-4px);
-`
-
-const Copyright = styled.small`
-    font-weight: 400;
-    font-size: 12px;
-    text-align: center;
-    opacity: 0.5;
-`

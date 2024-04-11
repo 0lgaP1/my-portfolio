@@ -6,8 +6,6 @@ import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
 import emailjs from '@emailjs/browser';
 
-
-
 export const Contacts = () => {const form = useRef<ElementRef<'form'>>(null);
 
     const sendEmail = (e: any) => {

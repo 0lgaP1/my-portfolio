@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Props active for active link">
+      <change afterPath="$PROJECT_DIR$/src/layout/footer/Footer_Styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/Work_Styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/SliderStyles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider_Styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/WorkCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/WorkCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +163,8 @@
       <workItem from="1712438623137" duration="315000" />
       <workItem from="1712438946751" duration="21924000" />
       <workItem from="1712742563511" duration="2673000" />
-      <workItem from="1712746636079" duration="8299000" />
+      <workItem from="1712746636079" duration="11721000" />
+      <workItem from="1712833941913" duration="2096000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />

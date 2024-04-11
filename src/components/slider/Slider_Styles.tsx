@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const StyledSlider = styled.div`
+const Slider = styled.div`
     max-width: 500px;
     width: 100%;
     display: flex;
@@ -8,15 +8,15 @@ export const StyledSlider = styled.div`
     cursor: grab;
 `
 
-export const StyledSlide = styled.div`
+const Slide = styled.div`
     text-align: center;
 `
 
-export const StyledText = styled.p`
+const Text = styled.p`
     
 `
 
-export const Name = styled.span`
+const Name = styled.span`
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -25,3 +25,10 @@ export const Name = styled.span`
     margin: 22px 0 36px;
     display: inline-block;
 `
+
+export const S = {
+    Slider,
+    Slide,
+    Text,
+    Name
+}
