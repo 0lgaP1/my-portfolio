@@ -87,6 +87,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "npm.deploy.executor": "Run",
+    "npm.predeploy.executor": "Run",
     "npm.start.executor": "Run",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "ts.external.directory.path": "C:\\Users\\Dell\\WebstormProjects\\portfolio\\node_modules\\typescript\\lib",
@@ -108,7 +110,27 @@
       <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\IconWrapper.tsx" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.predeploy">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -121,6 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -153,7 +177,7 @@
       <workItem from="1712438946751" duration="21924000" />
       <workItem from="1712742563511" duration="2673000" />
       <workItem from="1712746636079" duration="11721000" />
-      <workItem from="1712833941913" duration="10470000" />
+      <workItem from="1712833941913" duration="11042000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
@@ -299,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712233040484</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Props active for active link">
+      <option name="closed" value="true" />
+      <created>1713184714523</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713184714523</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
