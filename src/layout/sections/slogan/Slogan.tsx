@@ -13,7 +13,7 @@ const scrollToContacts = () => {
         smooth: 'easeInOutQuart',
     });
 };
-export const Slogan: React.FC<any> = () => {
+export const Slogan: React.FC = () => {
     return (
         <StyledSlogan>
             <Container>
