@@ -9,9 +9,17 @@ import {Slogan} from "./layout/sections/slogan/Slogan";
 import {Footer} from "./layout/footer/Footer";
 import {GoTopBtn} from "./components/goTopBtn/GoTopBtn";
 import {Particle} from "./components/particles/Particle";
+import {useRef} from "react";
 
 
 function App() {
+    // const contactsRef = useRef<HTMLDivElement>(null);
+    // const subscribeButtonClickHandler = () => {
+    //     if (contactsRef.current) {
+    //         contactsRef.current.scrollIntoView({ behavior: 'smooth' });
+    //     }
+    // };
+
     return (
         <div className="App">
             <Particle />

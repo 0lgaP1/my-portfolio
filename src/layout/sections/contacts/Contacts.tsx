@@ -6,7 +6,7 @@ import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
 import emailjs from '@emailjs/browser';
 
-export const Contacts = () => {const form = useRef<ElementRef<'form'>>(null);
+export const Contacts = ({contactsRef}:any) => {const form = useRef<ElementRef<'form'>>(null);
 
     const sendEmail = (e: any) => {
         e.preventDefault();
@@ -27,8 +27,9 @@ export const Contacts = () => {const form = useRef<ElementRef<'form'>>(null);
             );
         e.target.reset()
     };
+
     return (
-        <StyledContacts id={"contact"}>
+        <StyledContacts ref={contactsRef} id={"contacts"}>
             <Container>
                 <SectionTitle>Contact</SectionTitle>
                 <StyledForm ref={form} onSubmit={sendEmail}>

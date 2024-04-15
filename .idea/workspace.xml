@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Props active for active link">
-      <change afterPath="$PROJECT_DIR$/src/layout/footer/Footer_Styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/Work_Styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/SliderStyles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider_Styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/iconsSvg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/iconsSvg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/particles/Particle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/particles/Particle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/WorkCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/WorkCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -87,23 +86,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/WebstormProjects/portfolio/src/layout/header&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Dell\\WebstormProjects\\portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Dell/WebstormProjects/portfolio/src/layout/header",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "ts.external.directory.path": "C:\\Users\\Dell\\WebstormProjects\\portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\layout\header" />
@@ -164,7 +164,7 @@
       <workItem from="1712438946751" duration="21924000" />
       <workItem from="1712742563511" duration="2673000" />
       <workItem from="1712746636079" duration="11721000" />
-      <workItem from="1712833941913" duration="2096000" />
+      <workItem from="1712833941913" duration="10017000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />

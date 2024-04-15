@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import type { Container } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
 
-export const Particle = () => {
+export const Particle:React.FC = () => {
     const [ init, setInit ] = useState(false);
     useEffect(() => {
         initParticlesEngine(async (engine) => {
