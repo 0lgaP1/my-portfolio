@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Props active for active link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/iconsSvg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/iconsSvg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/js-lessons/portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/js-lessons/FCC-gradebook-app/gradebook-app.js&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -209,7 +206,7 @@
       <workItem from="1720095828258" duration="21000" />
       <workItem from="1720096191080" duration="9000" />
       <workItem from="1728380186532" duration="9071000" />
-      <workItem from="1728459646175" duration="2827000" />
+      <workItem from="1728459646175" duration="5390000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />

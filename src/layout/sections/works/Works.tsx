@@ -6,6 +6,10 @@ import {WorkCard} from "./WorkCard";
 import {TabMenu, TabsStatusType} from "./tabMenu/TabMenu";
 import socialImg from "../../../assets/img/social network.png";
 import timerImg from "../../../assets/img/timer.png";
+import counter from "../../../assets/img/counter.jpg";
+import todolist from "../../../assets/img/todolist.jpg";
+import gameImg from "../../../assets/img/game-rock-paper-scissors.jpg"
+import regForm from "../../../assets/img/reg-form.jpg"
 import {Container} from "../../../components/Container";
 import {AnimatePresence, motion} from "framer-motion"
 
@@ -35,53 +39,58 @@ const tabsItems: Array<{ status: TabsStatusType, title: string }> = [
 
 const worksData = [
     {
-        src: socialImg,
-        title: 'Social network',
-        text: "Lorem ipsum dolor",
+        src: todolist,
+        title: 'To-do List App',
+        text: "An application to add and achieve tasks",
+        type: "spa",
+        id: 3,
+    },
+    {
+        src: timerImg,
+        title: 'Counter',
+        text: "A counter with progress bar",
         type: "spa",
         id: 1,
     },
 
     {
-        src: timerImg,
-        title: "Timer",
-        text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
+        src: regForm,
+        title: "Registration form",
+        text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem i",
         type: "react",
         id: 2
     },
 
-    {
-        src: socialImg,
-        title: 'Social network',
-        text: "Lorem ipsum dolor",
-        type: "spa",
-        id: 3,
-    },
+    // {
+    //     src: timerImg,
+    //     title: "Grade book App",
+    //     text: "A helper for teachers to ensure whether a student passed the exam or not",
+    //     type: "react",
+    //     id: 4
+    // },
 
     {
-        src: timerImg,
-        title: "Timer",
-        text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
-        type: "react",
-        id: 4
-    },
-
-    {
-        src: socialImg,
-        title: 'Social network',
+        src: gameImg,
+        title: 'A game Rock-paper-scissors',
         text: "Lorem ipsum dolor",
         type: "spa",
         id: 5,
     },
-
-    {
-        src: timerImg,
-        title: "Timer",
-        text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor, Lorem ipsum dolor",
-        type: "landing",
-        id: 6
-    },
-
+    //
+    // {
+    //     src: timerImg,
+    //     title: "Wall clock",
+    //     text: "In case you're in a hurry :)",
+    //     type: "landing",
+    //     id: 6
+    // },
+    // {
+    //     src: timerImg,
+    //     title: "Workshop",
+    //     text: "Landing for a workshop",
+    //     type: "landing",
+    //     id: 6
+    // },
 ]
 export const Works: React.FC = () => {
     const [currentFilterStatus, setCurrentFilterStatus] = useState<TabsStatusType>("all")
