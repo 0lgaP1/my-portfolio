@@ -20,9 +20,8 @@ const Slide = (props: SlidePropsType) => {
 }
 
 const items = [
-    <Slide text={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} userName={"Ivan Ivanov"}/>,
-    <Slide text={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} userName={"Petr Petrov"}/>,
-    <Slide text={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} userName={"Igor Igorev"}/>,
+    <Slide text={"Promptly and accurately carries out assignments from management. Possesses broad erudition and a creative approach to tasks."} userName={"S. Potapov, Head of the Planning Economic Department, Gefest"}/>,
+    <Slide text={"She is communicative, polite and tactful in her interactions with colleagues."} userName={"A. Orlov, Planning bureau chief, Gefest"}/>,
 ];
 
 export const Slider = () => (

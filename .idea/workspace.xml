@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Props active for active link" />
+    <list default="true" id="46c7771e-43fd-4e84-a221-4e4c43be2b55" name="Changes" comment="Props active for active link">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/iconsSvg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/iconsSvg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,26 +81,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Dell/WebstormProjects/portfolio/src/layout/header",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.deploy.executor": "Run",
-    "npm.predeploy.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "ts.external.directory.path": "C:\\Users\\Dell\\WebstormProjects\\portfolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/js-lessons/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.predeploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\js-lessons\\portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\WebstormProjects\portfolio\src\layout\header" />
@@ -143,9 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +183,33 @@
       <workItem from="1712438946751" duration="21924000" />
       <workItem from="1712742563511" duration="2673000" />
       <workItem from="1712746636079" duration="11721000" />
-      <workItem from="1712833941913" duration="11042000" />
+      <workItem from="1712833941913" duration="11456000" />
+      <workItem from="1713431091715" duration="353000" />
+      <workItem from="1713431569107" duration="599000" />
+      <workItem from="1713510860614" duration="3000" />
+      <workItem from="1713525333841" duration="3000" />
+      <workItem from="1713798576338" duration="689000" />
+      <workItem from="1714599600338" duration="8000" />
+      <workItem from="1715119399525" duration="34000" />
+      <workItem from="1715119434634" duration="1957000" />
+      <workItem from="1715121771702" duration="409000" />
+      <workItem from="1715620261204" duration="10000" />
+      <workItem from="1719312755287" duration="338000" />
+      <workItem from="1719434691174" duration="5000" />
+      <workItem from="1720039021367" duration="30000" />
+      <workItem from="1720093714380" duration="362000" />
+      <workItem from="1720094626538" duration="51000" />
+      <workItem from="1720094737337" duration="10000" />
+      <workItem from="1720094923534" duration="12000" />
+      <workItem from="1720095044106" duration="5000" />
+      <workItem from="1720095131457" duration="50000" />
+      <workItem from="1720095189186" duration="6000" />
+      <workItem from="1720095604720" duration="11000" />
+      <workItem from="1720095659699" duration="125000" />
+      <workItem from="1720095828258" duration="21000" />
+      <workItem from="1720096191080" duration="9000" />
+      <workItem from="1728380186532" duration="9071000" />
+      <workItem from="1728459646175" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="Added svg-sprites">
       <option name="closed" value="true" />
@@ -331,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713184714523</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Props active for active link">
+      <option name="closed" value="true" />
+      <created>1713185094672</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185094672</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
