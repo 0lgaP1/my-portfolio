@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.3f230262.css",
-    "main.js": "/my-portfolio/static/js/main.ef58abfd.js",
+    "main.js": "/my-portfolio/static/js/main.9505d677.js",
     "static/js/607.0b71cb7d.chunk.js": "/my-portfolio/static/js/607.0b71cb7d.chunk.js",
     "static/js/7418.379a8e2b.chunk.js": "/my-portfolio/static/js/7418.379a8e2b.chunk.js",
     "static/js/5.fe2483fc.chunk.js": "/my-portfolio/static/js/5.fe2483fc.chunk.js",
@@ -72,12 +72,14 @@
     "static/js/9469.ebfaa1ca.chunk.js": "/my-portfolio/static/js/9469.ebfaa1ca.chunk.js",
     "static/js/5666.1a86ea66.chunk.js": "/my-portfolio/static/js/5666.1a86ea66.chunk.js",
     "static/media/main-photo.jpg": "/my-portfolio/static/media/main-photo.c7748f498261fb937ab7.jpg",
-    "static/media/social network.png": "/my-portfolio/static/media/social network.bea6c9aa44e5ae94b92a.png",
-    "static/media/iconsSvg.svg": "/my-portfolio/static/media/iconsSvg.ef89d10a023024d00f801c41e2249534.svg",
+    "static/media/game-rock-paper-scissors.jpg": "/my-portfolio/static/media/game-rock-paper-scissors.9ec9712c81a4f1ba08ba.jpg",
+    "static/media/reg-form.jpg": "/my-portfolio/static/media/reg-form.959d08a4c43d81d085f0.jpg",
+    "static/media/todolist.jpg": "/my-portfolio/static/media/todolist.cd3ee77a2ca3ba7625aa.jpg",
+    "static/media/iconsSvg.svg": "/my-portfolio/static/media/iconsSvg.d65fd4366b723aacd9a8caab6c626700.svg",
     "static/media/timer.png": "/my-portfolio/static/media/timer.e98e2e6759b0e0e9cfbc.png",
     "index.html": "/my-portfolio/index.html",
     "main.3f230262.css.map": "/my-portfolio/static/css/main.3f230262.css.map",
-    "main.ef58abfd.js.map": "/my-portfolio/static/js/main.ef58abfd.js.map",
+    "main.9505d677.js.map": "/my-portfolio/static/js/main.9505d677.js.map",
     "607.0b71cb7d.chunk.js.map": "/my-portfolio/static/js/607.0b71cb7d.chunk.js.map",
     "7418.379a8e2b.chunk.js.map": "/my-portfolio/static/js/7418.379a8e2b.chunk.js.map",
     "5.fe2483fc.chunk.js.map": "/my-portfolio/static/js/5.fe2483fc.chunk.js.map",
@@ -150,6 +152,6 @@
   },
   "entrypoints": [
     "static/css/main.3f230262.css",
-    "static/js/main.ef58abfd.js"
+    "static/js/main.9505d677.js"
   ]
 }
