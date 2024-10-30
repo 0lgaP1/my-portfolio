@@ -7,9 +7,9 @@ import {TabMenu, TabsStatusType} from "./tabMenu/TabMenu";
 import socialImg from "../../../assets/img/social network.png";
 import timerImg from "../../../assets/img/timer.png";
 import counter from "../../../assets/img/counter.jpg";
-import todolist from "../../../assets/img/todolist.jpg";
-import gameImg from "../../../assets/img/game-rock-paper-scissors.jpg"
-import regForm from "../../../assets/img/reg-form.jpg"
+// import todolist from "../../../assets/img/todolist.jpg";
+// import gameImg from "../../../assets/img/game-rock-paper-scissors.jpg"
+// import regForm from "../../../assets/img/reg-form.jpg"
 import {Container} from "../../../components/Container";
 import {AnimatePresence, motion} from "framer-motion"
 
@@ -38,13 +38,13 @@ const tabsItems: Array<{ status: TabsStatusType, title: string }> = [
 ]
 
 const worksData = [
-    {
-        src: todolist,
-        title: 'To-do List App',
-        text: "An application to add and achieve tasks",
-        type: "spa",
-        id: 3,
-    },
+    // {
+    //     src: todolist,
+    //     title: 'To-do List App',
+    //     text: "An application to add and achieve tasks",
+    //     type: "spa",
+    //     id: 3,
+    // },
     {
         src: timerImg,
         title: 'Counter',
@@ -53,13 +53,13 @@ const worksData = [
         id: 1,
     },
 
-    {
-        src: regForm,
-        title: "Registration form",
-        text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem i",
-        type: "react",
-        id: 2
-    },
+    // {
+    //     src: regForm,
+    //     title: "Registration form",
+    //     text: "Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem i",
+    //     type: "react",
+    //     id: 2
+    // },
 
     // {
     //     src: timerImg,
@@ -69,13 +69,13 @@ const worksData = [
     //     id: 4
     // },
 
-    {
-        src: gameImg,
-        title: 'A game Rock-paper-scissors',
-        text: "Lorem ipsum dolor",
-        type: "spa",
-        id: 5,
-    },
+    // {
+    //     src: gameImg,
+    //     title: 'A game Rock-paper-scissors',
+    //     text: "Lorem ipsum dolor",
+    //     type: "spa",
+    //     id: 5,
+    // },
     //
     // {
     //     src: timerImg,
