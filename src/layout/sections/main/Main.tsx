@@ -13,17 +13,17 @@ export const Main: React.FC = () => {
                 <FlexWrapper align={"center"} justify={"space-around"} wrap={"wrap"}>
                     <S.Text>
                         <S.SmallText>Hi there!</S.SmallText>
-                        <S.NameText>I'm <span>Olga P</span></S.NameText>
+                        <S.NameText>I'm <span>Olga Patapchuk</span></S.NameText>
                         <S.MainTitle>
                             <Typewriter
                                 options={{
-                                    strings: ['A web developer', 'A frontend developer'],
+                                    strings: ['Nice to see You!', 'Let’s create together.'],
                                     autoStart: true,
                                     loop: true,
                                     delay: 50,
                                 }}
                             />
-                            <p>A Web Developer</p>
+                            {/*<p>Nice to see You here!</p>*/}
                         </S.MainTitle>
                     </S.Text>
 

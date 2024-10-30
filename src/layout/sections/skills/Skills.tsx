@@ -65,6 +65,21 @@ const skillData = [
         iconId: "bootstrap",
         title: "Bootstrap",
         description: "A front-end framework used for building responsive and mobile-first websites and web applications."
+    },
+    {
+        iconId: "excel",
+        title: "MS Excel",
+        description: "It's a Microsoft spreadsheet editor."
+    },
+    {
+        iconId: "powerpoint",
+        title: "MS PowerPoint",
+        description: "It's a Microsoft presentation program."
+    },
+    {
+        iconId: "powerbi",
+        title: "MS Power BI",
+        description: "That's an interactive data visualization software product with a primary focus on business intelligence."
     }
 ]
 export const Skills: React.FC = () => {
